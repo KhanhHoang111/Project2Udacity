@@ -9,7 +9,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     try:
         url = os.environ["mongoDBConnection"]  # TODO: Update with appropriate MongoDB connection information
         client = pymongo.MongoClient(url)
-        database = client['nfmongo']
+        database = client['mymongodb1']
         collection = database['advertisements']
 
 
