@@ -46,7 +46,7 @@ def rss():
     fg = FeedGenerator()
     fg.title('Feed title')
     fg.description('Feed Description')
-    fg.link(href='https://udacityprj2.azurewebsites.net')
+    fg.link(href='https://udacityprj2.azurewebsites.net/api/')
     
 
     response = requests.get(settings.API_URL + '/getAdvertisements')
