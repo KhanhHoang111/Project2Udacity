@@ -5,8 +5,8 @@
       "type": "eventHubTrigger",
       "name": "event",
       "direction": "in",
-      "eventHubName": "nfeventhub",
-      "connection": "NFEventHubConn"
+      "eventHubName": "prj2uda",
+      "connection": "prj2uda"
     }
   ]
 }
